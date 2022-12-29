@@ -1,0 +1,35 @@
+.grid {
+    margin: 20px 0 0;
+}
+
+body {
+    background-color: black;
+}
+
+button {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    background: #0fa;
+    padding: 10px 40px;
+    border-radius: 2px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+  }
+
+  button:hover {
+    color: black;
+    font-size: 20px;
+    padding: 9px 40px;
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
